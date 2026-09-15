@@ -1,0 +1,6 @@
+{
+  "name": "EventTicket",
+  "description": "Full-stack real-time ticket booking platform with instant seat sync via WebSockets, QR code ticketing, and JWT-authenticated admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

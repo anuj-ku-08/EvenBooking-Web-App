@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "_id": "user_admin_001",
+      "name": "EventTicket Administrator",
+      "email": "admin@eventticket.com",
+      "password": "$2b$10$FQZUKrBsnGuG5Jl5iWSznOxMMKDxAruyG8tYozlDGYZjikSYOax06",
+      "role": "admin",
+      "createdAt": "2026-09-14T15:01:25.961Z"
+    }
+  ],
+  "events": [
+    {
+      "title": "Global Tech Summit 2026",
+      "description": "Explore the future of artificial intelligence, cloud scale architecture, and quantum computing with 30+ international keynote speakers and live tech showcases.",
+      "date": "2026-10-15",
+      "time": "09:00 AM",
+      "venue": "Convention Center, Hall A, Tech Valley",
+      "totalSeats": 250,
+      "availableSeats": 182,
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
+      "category": "Technology",
+      "isActive": true,
+      "price": 0,
+      "_id": "evt_seed_001",
+      "createdAt": "2026-09-14T15:01:25.961Z",
+      "updatedAt": "2026-09-14T15:01:32.799Z"
+    },
+    {
+      "title": "Acoustic Sunset Music Festival",
+      "description": "An open-air evening featuring world-class indie singer-songwriters, live jazz ensembles, and artisan food trucks under the stars.",
+      "date": "2026-10-22",
+      "time": "05:30 PM",
+      "venue": "Riverside Amphitheater, Waterfront Park",
+      "totalSeats": 400,
+      "availableSeats": 328,
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+      "category": "Music",
+      "isActive": true,
+      "price": 0,
+      "_id": "evt_seed_002",
+      "createdAt": "2026-09-14T15:01:25.961Z",
+      "updatedAt": "2026-09-14T15:01:25.961Z"
+    },
+    {
+      "title": "Full-Stack & Web3 Developer Workshop",
+      "description": "Intensive, hands-on masterclass covering real-time systems, WebSockets, microservices, and distributed systems design with certified mentors.",
+      "date": "2026-11-05",
+      "time": "10:00 AM",
+      "venue": "Innovation Hub, Lab 4B, Metro District",
+      "totalSeats": 60,
+      "availableSeats": 24,
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80",
+      "category": "Workshop",
+      "isActive": true,
+      "price": 0,
+      "_id": "evt_seed_003",
+      "createdAt": "2026-09-14T15:01:25.961Z",
+      "updatedAt": "2026-09-14T15:01:25.961Z"
+    },
+    {
+      "title": "National Esports Championship 2026",
+      "description": "The premier collegiate esports showdown featuring Valorant and Rocket League grand finals on massive stadium LED arenas with live shoutcasters.",
+      "date": "2026-11-18",
+      "time": "02:00 PM",
+      "venue": "CyberDome Arena, Grand Stadium Gate 3",
+      "totalSeats": 500,
+      "availableSeats": 412,
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+      "category": "Gaming",
+      "isActive": true,
+      "price": 0,
+      "_id": "evt_seed_004",
+      "createdAt": "2026-09-14T15:01:25.961Z",
+      "updatedAt": "2026-09-14T15:01:25.961Z"
+    },
+    {
+      "title": "UX Design & Creative Systems Conference",
+      "description": "Deep dive into modern visual design, accessibility ethics, design engineering, and generative creative interfaces with industry design leaders.",
+      "date": "2026-12-02",
+      "time": "11:00 AM",
+      "venue": "Metropolitan Arts Center, Main Auditorium",
+      "totalSeats": 150,
+      "availableSeats": 98,
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80",
+      "category": "Design",
+      "isActive": true,
+      "price": 0,
+      "_id": "evt_seed_005",
+      "createdAt": "2026-09-14T15:01:25.961Z",
+      "updatedAt": "2026-09-14T15:01:25.961Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "bkg_1789398092799_224",
+      "bookingId": "TKT-20260914-3696",
+      "eventId": "evt_seed_001",
+      "eventTitle": "Global Tech Summit 2026",
+      "eventDate": "2026-10-15",
+      "eventTime": "09:00 AM",
+      "eventVenue": "Convention Center, Hall A, Tech Valley",
+      "eventImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
+      "userName": "Sarah Connor",
+      "userEmail": "sarah@cyberdyne.io",
+      "seatsBooked": 2,
+      "selectedSeats": [
+        "B-2",
+        "B-3"
+      ],
+      "qrCodeData": "{\"bookingId\":\"TKT-20260914-3696\",\"eventId\":\"evt_seed_001\",\"eventTitle\":\"Global Tech Summit 2026\",\"userName\":\"Sarah Connor\",\"userEmail\":\"sarah@cyberdyne.io\",\"seatsBooked\":2,\"venue\":\"Convention Center, Hall A, Tech Valley\",\"date\":\"2026-10-15\",\"time\":\"09:00 AM\",\"verifiedAt\":\"2026-09-14T15:01:32.799Z\"}",
+      "status": "Booked",
+      "createdAt": "2026-09-14T15:01:32.799Z"
+    },
+    {
+      "_id": "bkg_seed_001",
+      "bookingId": "TKT-20260914-1001",
+      "eventId": "evt_seed_001",
+      "eventTitle": "Global Tech Summit 2026",
+      "eventDate": "2026-10-15",
+      "eventTime": "09:00 AM",
+      "eventVenue": "Convention Center, Hall A, Tech Valley",
+      "eventImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
+      "userName": "Alex Morgan",
+      "userEmail": "alex.morgan@university.edu",
+      "seatsBooked": 2,
+      "selectedSeats": [
+        "A-1",
+        "A-2"
+      ],
+      "qrCodeData": "{\"ticket\":\"TKT-20260914-1001\",\"event\":\"Global Tech Summit 2026\",\"email\":\"alex.morgan@university.edu\",\"seats\":2,\"verified\":true}",
+      "status": "Booked",
+      "createdAt": "2026-09-13T15:01:25.961Z"
+    },
+    {
+      "_id": "bkg_seed_002",
+      "bookingId": "TKT-20260914-1002",
+      "eventId": "evt_seed_003",
+      "eventTitle": "Full-Stack & Web3 Developer Workshop",
+      "eventDate": "2026-11-05",
+      "eventTime": "10:00 AM",
+      "eventVenue": "Innovation Hub, Lab 4B, Metro District",
+      "eventImage": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80",
+      "userName": "Priya Sharma",
+      "userEmail": "priya.sharma@techcorp.io",
+      "seatsBooked": 1,
+      "selectedSeats": [
+        "B-4"
+      ],
+      "qrCodeData": "{\"ticket\":\"TKT-20260914-1002\",\"event\":\"Full-Stack & Web3 Developer Workshop\",\"email\":\"priya.sharma@techcorp.io\",\"seats\":1,\"verified\":true}",
+      "status": "Used",
+      "createdAt": "2026-09-14T03:01:25.961Z"
+    }
+  ]
+}
